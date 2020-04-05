@@ -1,0 +1,16 @@
+{
+    "statusCode": 200,
+    "data": {
+        "title": "BMW X6",
+        "description": " M 4.4 4x4 V8 32V Bi-Turbo Aut. ",
+        "price": " R$ 515.900,00 ",
+        "ano": "2018\/2019",
+        "quilometragem": "8.500 Km",
+        "cambio": "Autom\u00e1tico",
+        "portas": "4",
+        "combustivel": "Gasolina",
+        "cor": "Preto",
+        "placa": "QQY",
+        "aceitaTroca": "Aceito Troca"
+    }
+}

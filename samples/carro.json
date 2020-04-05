@@ -1,0 +1,93 @@
+{
+    "statusCode": 200,
+    "data": [
+        {
+            "id": 0,
+            "title": "Audi A3 Sedan",
+            "price": "R$ 91.000,00",
+            "info": " <li> <span> AIR BAGS 4, <\/span> <\/li> <li> <span> ALARME, <\/span> <\/li> <li> <span> AR CONDICIONADO, <\/span> <\/li> <li> <span> AR QUENTE, <\/span> <\/li> <li> <span> BANCOS DE COURO, <\/span> <\/li> <li>(+18)<\/li> ",
+            "link": "https:\/\/seminovos.com.br\/audi-a3-sedan-2018--2659595?dados=eyJjb25zdWx0YVBhcmFtcyI6eyJ0aXBvIjoxLCJtYXJjYSI6IjQiLCJpZFRpcG8iOjEsInByZWNvRGUiOiIxMDAwIiwicHJlY29BdGUiOiIxMDAwMDAiLCJhbm9EZSI6IjIwMTgiLCJhbm9BdGUiOiIyMDE4IiwidmVpY3Vsb1plcm9LbSI6MCwibW9kZWxvIjoiIiwicmVnaXN0cm9zUGFnaW5hIjoyMCwicGFnaW5hQXR1YWwiOiIxIiwib2N1bHRhclZhbG9yQUNvbWJpbmFyIjpmYWxzZSwib2N1bHRhckZpbmFuY2lhbWVudG8iOmZhbHNlLCJvcmRlbmFyUG9yIjpudWxsLCJvcmRlbSI6MSwibW90b3JlcyI6WyIxLjQiLCIxLjYiLCIxLjgiLCIyLjAiLCIyLjQiLCIyLjgiLCIzLjAiLCI0LjIiLCI1LjIiXX0sInZlaWN1bG9JbmRpY2UiOjAsInJlc3VsdGFkb0RlQnVzY2EiOnsicGFnZXMiOjEsInRvdGFsIjoxMSwiY3VycmVudCI6IjEiLCJyb3V0ZU5hbWUiOiJodHRwczpcL1wvc2VtaW5vdm9zLmNvbS5iciIsInJvdXRlUGFyYW1zIjoiXC9jYXJyb1wvYXVkaVwvYW5vLTIwMTgtMjAxOFwvcHJlY28tMTAwMC0xMDAwMDBcL2VzdGFkby1zZW1pbm92bz9wYWdlPTEiLCJwYWdpbmF0aW9uIjp0cnVlLCJwYWdpbmF0aW9uUmVzdWx0YWRvIjp0cnVlLCJyb3V0ZVBhcmFtc0FycmF5Ijp7InRpcG8iOiJjYXJybyIsIm1hcmNhIjoiYXVkaSIsImFubyI6IjIwMTgtMjAxOCIsInByZWNvIjoiMTAwMC0xMDAwMDAiLCJlc3RhZG8iOiJzZW1pbm92byJ9fSwidXJsQnVzY2EiOiJcL2NhcnJvXC9hdWRpXC9hbm8tMjAxOC0yMDE4XC9wcmVjby0xMDAwLTEwMDAwMFwvZXN0YWRvLXNlbWlub3ZvP3BhZ2U9MSJ9",
+            "anuncio": "http:\/\/localhost:8080\/seminovos\/anuncio\/audi-a3-sedan-2018--2659595"
+        },
+        {
+            "id": 1,
+            "title": "Audi A3 Sedan",
+            "price": "R$ 93.000,00",
+            "info": " <li> <span> ABS, <\/span> <\/li> <li> <span> AIR BAGS 7, <\/span> <\/li> <li> <span> ALARME, <\/span> <\/li> <li> <span> AR CONDICIONADO, <\/span> <\/li> <li> <span> BANCOS DE COURO, <\/span> <\/li> <li>(+16)<\/li> ",
+            "link": "https:\/\/seminovos.com.br\/audi-a3-sedan-2018--2671827?dados=eyJjb25zdWx0YVBhcmFtcyI6eyJ0aXBvIjoxLCJtYXJjYSI6IjQiLCJpZFRpcG8iOjEsInByZWNvRGUiOiIxMDAwIiwicHJlY29BdGUiOiIxMDAwMDAiLCJhbm9EZSI6IjIwMTgiLCJhbm9BdGUiOiIyMDE4IiwidmVpY3Vsb1plcm9LbSI6MCwibW9kZWxvIjoiIiwicmVnaXN0cm9zUGFnaW5hIjoyMCwicGFnaW5hQXR1YWwiOiIxIiwib2N1bHRhclZhbG9yQUNvbWJpbmFyIjpmYWxzZSwib2N1bHRhckZpbmFuY2lhbWVudG8iOmZhbHNlLCJvcmRlbmFyUG9yIjpudWxsLCJvcmRlbSI6MSwibW90b3JlcyI6WyIxLjQiLCIxLjYiLCIxLjgiLCIyLjAiLCIyLjQiLCIyLjgiLCIzLjAiLCI0LjIiLCI1LjIiXX0sInZlaWN1bG9JbmRpY2UiOjEsInJlc3VsdGFkb0RlQnVzY2EiOnsicGFnZXMiOjEsInRvdGFsIjoxMSwiY3VycmVudCI6IjEiLCJyb3V0ZU5hbWUiOiJodHRwczpcL1wvc2VtaW5vdm9zLmNvbS5iciIsInJvdXRlUGFyYW1zIjoiXC9jYXJyb1wvYXVkaVwvYW5vLTIwMTgtMjAxOFwvcHJlY28tMTAwMC0xMDAwMDBcL2VzdGFkby1zZW1pbm92bz9wYWdlPTEiLCJwYWdpbmF0aW9uIjp0cnVlLCJwYWdpbmF0aW9uUmVzdWx0YWRvIjp0cnVlLCJyb3V0ZVBhcmFtc0FycmF5Ijp7InRpcG8iOiJjYXJybyIsIm1hcmNhIjoiYXVkaSIsImFubyI6IjIwMTgtMjAxOCIsInByZWNvIjoiMTAwMC0xMDAwMDAiLCJlc3RhZG8iOiJzZW1pbm92byJ9fSwidXJsQnVzY2EiOiJcL2NhcnJvXC9hdWRpXC9hbm8tMjAxOC0yMDE4XC9wcmVjby0xMDAwLTEwMDAwMFwvZXN0YWRvLXNlbWlub3ZvP3BhZ2U9MSJ9",
+            "anuncio": "http:\/\/localhost:8080\/seminovos\/anuncio\/audi-a3-sedan-2018--2671827"
+        },
+        {
+            "id": 2,
+            "title": "Audi Q3",
+            "price": "R$ 99.900,00",
+            "info": " <li> <span> ABS, <\/span> <\/li> <li> <span> AIR BAGS 7, <\/span> <\/li> <li> <span> ALARME, <\/span> <\/li> <li> <span> AR CONDICIONADO, <\/span> <\/li> <li> <span> AR QUENTE, <\/span> <\/li> <li>(+24)<\/li> ",
+            "link": "https:\/\/seminovos.com.br\/audi-q3-2017-2018--2699477?dados=eyJjb25zdWx0YVBhcmFtcyI6eyJ0aXBvIjoxLCJtYXJjYSI6IjQiLCJpZFRpcG8iOjEsInByZWNvRGUiOiIxMDAwIiwicHJlY29BdGUiOiIxMDAwMDAiLCJhbm9EZSI6IjIwMTgiLCJhbm9BdGUiOiIyMDE4IiwidmVpY3Vsb1plcm9LbSI6MCwibW9kZWxvIjoiIiwicmVnaXN0cm9zUGFnaW5hIjoyMCwicGFnaW5hQXR1YWwiOiIxIiwib2N1bHRhclZhbG9yQUNvbWJpbmFyIjpmYWxzZSwib2N1bHRhckZpbmFuY2lhbWVudG8iOmZhbHNlLCJvcmRlbmFyUG9yIjpudWxsLCJvcmRlbSI6MSwibW90b3JlcyI6WyIxLjQiLCIxLjYiLCIxLjgiLCIyLjAiLCIyLjQiLCIyLjgiLCIzLjAiLCI0LjIiLCI1LjIiXX0sInZlaWN1bG9JbmRpY2UiOjIsInJlc3VsdGFkb0RlQnVzY2EiOnsicGFnZXMiOjEsInRvdGFsIjoxMSwiY3VycmVudCI6IjEiLCJyb3V0ZU5hbWUiOiJodHRwczpcL1wvc2VtaW5vdm9zLmNvbS5iciIsInJvdXRlUGFyYW1zIjoiXC9jYXJyb1wvYXVkaVwvYW5vLTIwMTgtMjAxOFwvcHJlY28tMTAwMC0xMDAwMDBcL2VzdGFkby1zZW1pbm92bz9wYWdlPTEiLCJwYWdpbmF0aW9uIjp0cnVlLCJwYWdpbmF0aW9uUmVzdWx0YWRvIjp0cnVlLCJyb3V0ZVBhcmFtc0FycmF5Ijp7InRpcG8iOiJjYXJybyIsIm1hcmNhIjoiYXVkaSIsImFubyI6IjIwMTgtMjAxOCIsInByZWNvIjoiMTAwMC0xMDAwMDAiLCJlc3RhZG8iOiJzZW1pbm92byJ9fSwidXJsQnVzY2EiOiJcL2NhcnJvXC9hdWRpXC9hbm8tMjAxOC0yMDE4XC9wcmVjby0xMDAwLTEwMDAwMFwvZXN0YWRvLXNlbWlub3ZvP3BhZ2U9MSJ9",
+            "anuncio": "http:\/\/localhost:8080\/seminovos\/anuncio\/audi-q3-2017-2018--2699477"
+        },
+        {
+            "id": 3,
+            "title": "Audi Q3",
+            "price": "R$ 90.300,00",
+            "info": " <li> <span> ABS, <\/span> <\/li> <li> <span> AIR BAGS 1, <\/span> <\/li> <li> <span> AIR BAGS 2, <\/span> <\/li> <li> <span> ALARME, <\/span> <\/li> <li> <span> AR CONDICIONADO, <\/span> <\/li> <li>(+9)<\/li> ",
+            "link": "https:\/\/seminovos.com.br\/audi-q3-2017-2018--2717070?dados=eyJjb25zdWx0YVBhcmFtcyI6eyJ0aXBvIjoxLCJtYXJjYSI6IjQiLCJpZFRpcG8iOjEsInByZWNvRGUiOiIxMDAwIiwicHJlY29BdGUiOiIxMDAwMDAiLCJhbm9EZSI6IjIwMTgiLCJhbm9BdGUiOiIyMDE4IiwidmVpY3Vsb1plcm9LbSI6MCwibW9kZWxvIjoiIiwicmVnaXN0cm9zUGFnaW5hIjoyMCwicGFnaW5hQXR1YWwiOiIxIiwib2N1bHRhclZhbG9yQUNvbWJpbmFyIjpmYWxzZSwib2N1bHRhckZpbmFuY2lhbWVudG8iOmZhbHNlLCJvcmRlbmFyUG9yIjpudWxsLCJvcmRlbSI6MSwibW90b3JlcyI6WyIxLjQiLCIxLjYiLCIxLjgiLCIyLjAiLCIyLjQiLCIyLjgiLCIzLjAiLCI0LjIiLCI1LjIiXX0sInZlaWN1bG9JbmRpY2UiOjMsInJlc3VsdGFkb0RlQnVzY2EiOnsicGFnZXMiOjEsInRvdGFsIjoxMSwiY3VycmVudCI6IjEiLCJyb3V0ZU5hbWUiOiJodHRwczpcL1wvc2VtaW5vdm9zLmNvbS5iciIsInJvdXRlUGFyYW1zIjoiXC9jYXJyb1wvYXVkaVwvYW5vLTIwMTgtMjAxOFwvcHJlY28tMTAwMC0xMDAwMDBcL2VzdGFkby1zZW1pbm92bz9wYWdlPTEiLCJwYWdpbmF0aW9uIjp0cnVlLCJwYWdpbmF0aW9uUmVzdWx0YWRvIjp0cnVlLCJyb3V0ZVBhcmFtc0FycmF5Ijp7InRpcG8iOiJjYXJybyIsIm1hcmNhIjoiYXVkaSIsImFubyI6IjIwMTgtMjAxOCIsInByZWNvIjoiMTAwMC0xMDAwMDAiLCJlc3RhZG8iOiJzZW1pbm92byJ9fSwidXJsQnVzY2EiOiJcL2NhcnJvXC9hdWRpXC9hbm8tMjAxOC0yMDE4XC9wcmVjby0xMDAwLTEwMDAwMFwvZXN0YWRvLXNlbWlub3ZvP3BhZ2U9MSJ9",
+            "anuncio": "http:\/\/localhost:8080\/seminovos\/anuncio\/audi-q3-2017-2018--2717070"
+        },
+        {
+            "id": 4,
+            "title": "Audi A3 Sedan",
+            "price": "R$ 91.990,00",
+            "info": " <li> <span> AIR BAGS 6, <\/span> <\/li> <li> <span> ALARME, <\/span> <\/li> <li> <span> AR CONDICIONADO, <\/span> <\/li> <li> <span> AR QUENTE, <\/span> <\/li> <li> <span> BANCOS DE COURO, <\/span> <\/li> <li>(+14)<\/li> ",
+            "link": "https:\/\/seminovos.com.br\/audi-a3-sedan-2018--2686679?dados=eyJjb25zdWx0YVBhcmFtcyI6eyJ0aXBvIjoxLCJtYXJjYSI6IjQiLCJpZFRpcG8iOjEsInByZWNvRGUiOiIxMDAwIiwicHJlY29BdGUiOiIxMDAwMDAiLCJhbm9EZSI6IjIwMTgiLCJhbm9BdGUiOiIyMDE4IiwidmVpY3Vsb1plcm9LbSI6MCwibW9kZWxvIjoiIiwicmVnaXN0cm9zUGFnaW5hIjoyMCwicGFnaW5hQXR1YWwiOiIxIiwib2N1bHRhclZhbG9yQUNvbWJpbmFyIjpmYWxzZSwib2N1bHRhckZpbmFuY2lhbWVudG8iOmZhbHNlLCJvcmRlbmFyUG9yIjpudWxsLCJvcmRlbSI6MSwibW90b3JlcyI6WyIxLjQiLCIxLjYiLCIxLjgiLCIyLjAiLCIyLjQiLCIyLjgiLCIzLjAiLCI0LjIiLCI1LjIiXX0sInZlaWN1bG9JbmRpY2UiOjQsInJlc3VsdGFkb0RlQnVzY2EiOnsicGFnZXMiOjEsInRvdGFsIjoxMSwiY3VycmVudCI6IjEiLCJyb3V0ZU5hbWUiOiJodHRwczpcL1wvc2VtaW5vdm9zLmNvbS5iciIsInJvdXRlUGFyYW1zIjoiXC9jYXJyb1wvYXVkaVwvYW5vLTIwMTgtMjAxOFwvcHJlY28tMTAwMC0xMDAwMDBcL2VzdGFkby1zZW1pbm92bz9wYWdlPTEiLCJwYWdpbmF0aW9uIjp0cnVlLCJwYWdpbmF0aW9uUmVzdWx0YWRvIjp0cnVlLCJyb3V0ZVBhcmFtc0FycmF5Ijp7InRpcG8iOiJjYXJybyIsIm1hcmNhIjoiYXVkaSIsImFubyI6IjIwMTgtMjAxOCIsInByZWNvIjoiMTAwMC0xMDAwMDAiLCJlc3RhZG8iOiJzZW1pbm92byJ9fSwidXJsQnVzY2EiOiJcL2NhcnJvXC9hdWRpXC9hbm8tMjAxOC0yMDE4XC9wcmVjby0xMDAwLTEwMDAwMFwvZXN0YWRvLXNlbWlub3ZvP3BhZ2U9MSJ9",
+            "anuncio": "http:\/\/localhost:8080\/seminovos\/anuncio\/audi-a3-sedan-2018--2686679"
+        },
+        {
+            "id": 5,
+            "title": "Audi A3",
+            "price": "R$ 92.900,00",
+            "info": " <li> <span> ABS, <\/span> <\/li> <li> <span> AIR BAGS 2, <\/span> <\/li> <li> <span> ALARME, <\/span> <\/li> <li> <span> AR CONDICIONADO, <\/span> <\/li> <li> <span> AR QUENTE, <\/span> <\/li> <li>(+3)<\/li> ",
+            "link": "https:\/\/seminovos.com.br\/audi-a3-2018--2710251?dados=eyJjb25zdWx0YVBhcmFtcyI6eyJ0aXBvIjoxLCJtYXJjYSI6IjQiLCJpZFRpcG8iOjEsInByZWNvRGUiOiIxMDAwIiwicHJlY29BdGUiOiIxMDAwMDAiLCJhbm9EZSI6IjIwMTgiLCJhbm9BdGUiOiIyMDE4IiwidmVpY3Vsb1plcm9LbSI6MCwibW9kZWxvIjoiIiwicmVnaXN0cm9zUGFnaW5hIjoyMCwicGFnaW5hQXR1YWwiOiIxIiwib2N1bHRhclZhbG9yQUNvbWJpbmFyIjpmYWxzZSwib2N1bHRhckZpbmFuY2lhbWVudG8iOmZhbHNlLCJvcmRlbmFyUG9yIjpudWxsLCJvcmRlbSI6MSwibW90b3JlcyI6WyIxLjQiLCIxLjYiLCIxLjgiLCIyLjAiLCIyLjQiLCIyLjgiLCIzLjAiLCI0LjIiLCI1LjIiXX0sInZlaWN1bG9JbmRpY2UiOjUsInJlc3VsdGFkb0RlQnVzY2EiOnsicGFnZXMiOjEsInRvdGFsIjoxMSwiY3VycmVudCI6IjEiLCJyb3V0ZU5hbWUiOiJodHRwczpcL1wvc2VtaW5vdm9zLmNvbS5iciIsInJvdXRlUGFyYW1zIjoiXC9jYXJyb1wvYXVkaVwvYW5vLTIwMTgtMjAxOFwvcHJlY28tMTAwMC0xMDAwMDBcL2VzdGFkby1zZW1pbm92bz9wYWdlPTEiLCJwYWdpbmF0aW9uIjp0cnVlLCJwYWdpbmF0aW9uUmVzdWx0YWRvIjp0cnVlLCJyb3V0ZVBhcmFtc0FycmF5Ijp7InRpcG8iOiJjYXJybyIsIm1hcmNhIjoiYXVkaSIsImFubyI6IjIwMTgtMjAxOCIsInByZWNvIjoiMTAwMC0xMDAwMDAiLCJlc3RhZG8iOiJzZW1pbm92byJ9fSwidXJsQnVzY2EiOiJcL2NhcnJvXC9hdWRpXC9hbm8tMjAxOC0yMDE4XC9wcmVjby0xMDAwLTEwMDAwMFwvZXN0YWRvLXNlbWlub3ZvP3BhZ2U9MSJ9",
+            "anuncio": "http:\/\/localhost:8080\/seminovos\/anuncio\/audi-a3-2018--2710251"
+        },
+        {
+            "id": 6,
+            "title": "Audi Q3",
+            "price": "R$ 96.900,00",
+            "info": " <li> <span> ABS, <\/span> <\/li> <li> <span> AIR BAGS 10, <\/span> <\/li> <li> <span> ALARME, <\/span> <\/li> <li> <span> AR CONDICIONADO, <\/span> <\/li> <li> <span> BANCOS DE COURO, <\/span> <\/li> <li>(+22)<\/li> ",
+            "link": "https:\/\/seminovos.com.br\/audi-q3-2017-2018--2666794?dados=eyJjb25zdWx0YVBhcmFtcyI6eyJ0aXBvIjoxLCJtYXJjYSI6IjQiLCJpZFRpcG8iOjEsInByZWNvRGUiOiIxMDAwIiwicHJlY29BdGUiOiIxMDAwMDAiLCJhbm9EZSI6IjIwMTgiLCJhbm9BdGUiOiIyMDE4IiwidmVpY3Vsb1plcm9LbSI6MCwibW9kZWxvIjoiIiwicmVnaXN0cm9zUGFnaW5hIjoyMCwicGFnaW5hQXR1YWwiOiIxIiwib2N1bHRhclZhbG9yQUNvbWJpbmFyIjpmYWxzZSwib2N1bHRhckZpbmFuY2lhbWVudG8iOmZhbHNlLCJvcmRlbmFyUG9yIjpudWxsLCJvcmRlbSI6MSwibW90b3JlcyI6WyIxLjQiLCIxLjYiLCIxLjgiLCIyLjAiLCIyLjQiLCIyLjgiLCIzLjAiLCI0LjIiLCI1LjIiXX0sInZlaWN1bG9JbmRpY2UiOjYsInJlc3VsdGFkb0RlQnVzY2EiOnsicGFnZXMiOjEsInRvdGFsIjoxMSwiY3VycmVudCI6IjEiLCJyb3V0ZU5hbWUiOiJodHRwczpcL1wvc2VtaW5vdm9zLmNvbS5iciIsInJvdXRlUGFyYW1zIjoiXC9jYXJyb1wvYXVkaVwvYW5vLTIwMTgtMjAxOFwvcHJlY28tMTAwMC0xMDAwMDBcL2VzdGFkby1zZW1pbm92bz9wYWdlPTEiLCJwYWdpbmF0aW9uIjp0cnVlLCJwYWdpbmF0aW9uUmVzdWx0YWRvIjp0cnVlLCJyb3V0ZVBhcmFtc0FycmF5Ijp7InRpcG8iOiJjYXJybyIsIm1hcmNhIjoiYXVkaSIsImFubyI6IjIwMTgtMjAxOCIsInByZWNvIjoiMTAwMC0xMDAwMDAiLCJlc3RhZG8iOiJzZW1pbm92byJ9fSwidXJsQnVzY2EiOiJcL2NhcnJvXC9hdWRpXC9hbm8tMjAxOC0yMDE4XC9wcmVjby0xMDAwLTEwMDAwMFwvZXN0YWRvLXNlbWlub3ZvP3BhZ2U9MSJ9",
+            "anuncio": "http:\/\/localhost:8080\/seminovos\/anuncio\/audi-q3-2017-2018--2666794"
+        },
+        {
+            "id": 7,
+            "title": "Audi A3 Sedan",
+            "price": "R$ 91.900,00",
+            "info": " <li> <span> ABS, <\/span> <\/li> <li> <span> AIR BAGS 2, <\/span> <\/li> <li> <span> ALARME, <\/span> <\/li> <li> <span> AR CONDICIONADO, <\/span> <\/li> <li> <span> AR QUENTE, <\/span> <\/li> <li>(+2)<\/li> ",
+            "link": "https:\/\/seminovos.com.br\/audi-a3-sedan-2018--2694539?dados=eyJjb25zdWx0YVBhcmFtcyI6eyJ0aXBvIjoxLCJtYXJjYSI6IjQiLCJpZFRpcG8iOjEsInByZWNvRGUiOiIxMDAwIiwicHJlY29BdGUiOiIxMDAwMDAiLCJhbm9EZSI6IjIwMTgiLCJhbm9BdGUiOiIyMDE4IiwidmVpY3Vsb1plcm9LbSI6MCwibW9kZWxvIjoiIiwicmVnaXN0cm9zUGFnaW5hIjoyMCwicGFnaW5hQXR1YWwiOiIxIiwib2N1bHRhclZhbG9yQUNvbWJpbmFyIjpmYWxzZSwib2N1bHRhckZpbmFuY2lhbWVudG8iOmZhbHNlLCJvcmRlbmFyUG9yIjpudWxsLCJvcmRlbSI6MSwibW90b3JlcyI6WyIxLjQiLCIxLjYiLCIxLjgiLCIyLjAiLCIyLjQiLCIyLjgiLCIzLjAiLCI0LjIiLCI1LjIiXX0sInZlaWN1bG9JbmRpY2UiOjcsInJlc3VsdGFkb0RlQnVzY2EiOnsicGFnZXMiOjEsInRvdGFsIjoxMSwiY3VycmVudCI6IjEiLCJyb3V0ZU5hbWUiOiJodHRwczpcL1wvc2VtaW5vdm9zLmNvbS5iciIsInJvdXRlUGFyYW1zIjoiXC9jYXJyb1wvYXVkaVwvYW5vLTIwMTgtMjAxOFwvcHJlY28tMTAwMC0xMDAwMDBcL2VzdGFkby1zZW1pbm92bz9wYWdlPTEiLCJwYWdpbmF0aW9uIjp0cnVlLCJwYWdpbmF0aW9uUmVzdWx0YWRvIjp0cnVlLCJyb3V0ZVBhcmFtc0FycmF5Ijp7InRpcG8iOiJjYXJybyIsIm1hcmNhIjoiYXVkaSIsImFubyI6IjIwMTgtMjAxOCIsInByZWNvIjoiMTAwMC0xMDAwMDAiLCJlc3RhZG8iOiJzZW1pbm92byJ9fSwidXJsQnVzY2EiOiJcL2NhcnJvXC9hdWRpXC9hbm8tMjAxOC0yMDE4XC9wcmVjby0xMDAwLTEwMDAwMFwvZXN0YWRvLXNlbWlub3ZvP3BhZ2U9MSJ9",
+            "anuncio": "http:\/\/localhost:8080\/seminovos\/anuncio\/audi-a3-sedan-2018--2694539"
+        },
+        {
+            "id": 8,
+            "title": "Audi A3",
+            "price": "R$ 92.900,00",
+            "info": " <li> <span> ABS, <\/span> <\/li> <li> <span> AIR BAGS 1, <\/span> <\/li> <li> <span> AIR BAGS 2, <\/span> <\/li> <li> <span> ALARME, <\/span> <\/li> <li> <span> AR CONDICIONADO, <\/span> <\/li> <li>(+15)<\/li> ",
+            "link": "https:\/\/seminovos.com.br\/audi-a3-2018--2719099?dados=eyJjb25zdWx0YVBhcmFtcyI6eyJ0aXBvIjoxLCJtYXJjYSI6IjQiLCJpZFRpcG8iOjEsInByZWNvRGUiOiIxMDAwIiwicHJlY29BdGUiOiIxMDAwMDAiLCJhbm9EZSI6IjIwMTgiLCJhbm9BdGUiOiIyMDE4IiwidmVpY3Vsb1plcm9LbSI6MCwibW9kZWxvIjoiIiwicmVnaXN0cm9zUGFnaW5hIjoyMCwicGFnaW5hQXR1YWwiOiIxIiwib2N1bHRhclZhbG9yQUNvbWJpbmFyIjpmYWxzZSwib2N1bHRhckZpbmFuY2lhbWVudG8iOmZhbHNlLCJvcmRlbmFyUG9yIjpudWxsLCJvcmRlbSI6MSwibW90b3JlcyI6WyIxLjQiLCIxLjYiLCIxLjgiLCIyLjAiLCIyLjQiLCIyLjgiLCIzLjAiLCI0LjIiLCI1LjIiXX0sInZlaWN1bG9JbmRpY2UiOjgsInJlc3VsdGFkb0RlQnVzY2EiOnsicGFnZXMiOjEsInRvdGFsIjoxMSwiY3VycmVudCI6IjEiLCJyb3V0ZU5hbWUiOiJodHRwczpcL1wvc2VtaW5vdm9zLmNvbS5iciIsInJvdXRlUGFyYW1zIjoiXC9jYXJyb1wvYXVkaVwvYW5vLTIwMTgtMjAxOFwvcHJlY28tMTAwMC0xMDAwMDBcL2VzdGFkby1zZW1pbm92bz9wYWdlPTEiLCJwYWdpbmF0aW9uIjp0cnVlLCJwYWdpbmF0aW9uUmVzdWx0YWRvIjp0cnVlLCJyb3V0ZVBhcmFtc0FycmF5Ijp7InRpcG8iOiJjYXJybyIsIm1hcmNhIjoiYXVkaSIsImFubyI6IjIwMTgtMjAxOCIsInByZWNvIjoiMTAwMC0xMDAwMDAiLCJlc3RhZG8iOiJzZW1pbm92byJ9fSwidXJsQnVzY2EiOiJcL2NhcnJvXC9hdWRpXC9hbm8tMjAxOC0yMDE4XC9wcmVjby0xMDAwLTEwMDAwMFwvZXN0YWRvLXNlbWlub3ZvP3BhZ2U9MSJ9",
+            "anuncio": "http:\/\/localhost:8080\/seminovos\/anuncio\/audi-a3-2018--2719099"
+        },
+        {
+            "id": 9,
+            "title": "Audi Q3",
+            "price": "R$ 82.900,00",
+            "info": " <li> <span> AIR BAGS 6, <\/span> <\/li> <li> <span> ALARME, <\/span> <\/li> <li> <span> AR CONDICIONADO, <\/span> <\/li> <li> <span> AR QUENTE, <\/span> <\/li> <li> <span> BANCOS DE COURO, <\/span> <\/li> <li>(+15)<\/li> ",
+            "link": "https:\/\/seminovos.com.br\/audi-q3-2017-2018--2712206?dados=eyJjb25zdWx0YVBhcmFtcyI6eyJ0aXBvIjoxLCJtYXJjYSI6IjQiLCJpZFRpcG8iOjEsInByZWNvRGUiOiIxMDAwIiwicHJlY29BdGUiOiIxMDAwMDAiLCJhbm9EZSI6IjIwMTgiLCJhbm9BdGUiOiIyMDE4IiwidmVpY3Vsb1plcm9LbSI6MCwibW9kZWxvIjoiIiwicmVnaXN0cm9zUGFnaW5hIjoyMCwicGFnaW5hQXR1YWwiOiIxIiwib2N1bHRhclZhbG9yQUNvbWJpbmFyIjpmYWxzZSwib2N1bHRhckZpbmFuY2lhbWVudG8iOmZhbHNlLCJvcmRlbmFyUG9yIjpudWxsLCJvcmRlbSI6MSwibW90b3JlcyI6WyIxLjQiLCIxLjYiLCIxLjgiLCIyLjAiLCIyLjQiLCIyLjgiLCIzLjAiLCI0LjIiLCI1LjIiXX0sInZlaWN1bG9JbmRpY2UiOjksInJlc3VsdGFkb0RlQnVzY2EiOnsicGFnZXMiOjEsInRvdGFsIjoxMSwiY3VycmVudCI6IjEiLCJyb3V0ZU5hbWUiOiJodHRwczpcL1wvc2VtaW5vdm9zLmNvbS5iciIsInJvdXRlUGFyYW1zIjoiXC9jYXJyb1wvYXVkaVwvYW5vLTIwMTgtMjAxOFwvcHJlY28tMTAwMC0xMDAwMDBcL2VzdGFkby1zZW1pbm92bz9wYWdlPTEiLCJwYWdpbmF0aW9uIjp0cnVlLCJwYWdpbmF0aW9uUmVzdWx0YWRvIjp0cnVlLCJyb3V0ZVBhcmFtc0FycmF5Ijp7InRpcG8iOiJjYXJybyIsIm1hcmNhIjoiYXVkaSIsImFubyI6IjIwMTgtMjAxOCIsInByZWNvIjoiMTAwMC0xMDAwMDAiLCJlc3RhZG8iOiJzZW1pbm92byJ9fSwidXJsQnVzY2EiOiJcL2NhcnJvXC9hdWRpXC9hbm8tMjAxOC0yMDE4XC9wcmVjby0xMDAwLTEwMDAwMFwvZXN0YWRvLXNlbWlub3ZvP3BhZ2U9MSJ9",
+            "anuncio": "http:\/\/localhost:8080\/seminovos\/anuncio\/audi-q3-2017-2018--2712206"
+        },
+        {
+            "id": 10,
+            "title": "Audi A3",
+            "price": "R$ 89.990,00",
+            "info": " <li> <span> ALARME, <\/span> <\/li> <li> <span> AR CONDICIONADO, <\/span> <\/li> <li> <span> AR QUENTE, <\/span> <\/li> <li> <span> C\u00c2MBIO AUTOM\u00c1TICO, <\/span> <\/li> <li> <span> DIRE\u00c7\u00c3O HIDR\u00c1ULICA, <\/span> <\/li> <li>(+1)<\/li> ",
+            "link": "https:\/\/seminovos.com.br\/audi-a3-2017-2018--2709150?dados=eyJjb25zdWx0YVBhcmFtcyI6eyJ0aXBvIjoxLCJtYXJjYSI6IjQiLCJpZFRpcG8iOjEsInByZWNvRGUiOiIxMDAwIiwicHJlY29BdGUiOiIxMDAwMDAiLCJhbm9EZSI6IjIwMTgiLCJhbm9BdGUiOiIyMDE4IiwidmVpY3Vsb1plcm9LbSI6MCwibW9kZWxvIjoiIiwicmVnaXN0cm9zUGFnaW5hIjoyMCwicGFnaW5hQXR1YWwiOiIxIiwib2N1bHRhclZhbG9yQUNvbWJpbmFyIjpmYWxzZSwib2N1bHRhckZpbmFuY2lhbWVudG8iOmZhbHNlLCJvcmRlbmFyUG9yIjpudWxsLCJvcmRlbSI6MSwibW90b3JlcyI6WyIxLjQiLCIxLjYiLCIxLjgiLCIyLjAiLCIyLjQiLCIyLjgiLCIzLjAiLCI0LjIiLCI1LjIiXX0sInZlaWN1bG9JbmRpY2UiOjEwLCJyZXN1bHRhZG9EZUJ1c2NhIjp7InBhZ2VzIjoxLCJ0b3RhbCI6MTEsImN1cnJlbnQiOiIxIiwicm91dGVOYW1lIjoiaHR0cHM6XC9cL3NlbWlub3Zvcy5jb20uYnIiLCJyb3V0ZVBhcmFtcyI6IlwvY2Fycm9cL2F1ZGlcL2Fuby0yMDE4LTIwMThcL3ByZWNvLTEwMDAtMTAwMDAwXC9lc3RhZG8tc2VtaW5vdm8%252FcGFnZT0xIiwicGFnaW5hdGlvbiI6dHJ1ZSwicGFnaW5hdGlvblJlc3VsdGFkbyI6dHJ1ZSwicm91dGVQYXJhbXNBcnJheSI6eyJ0aXBvIjoiY2Fycm8iLCJtYXJjYSI6ImF1ZGkiLCJhbm8iOiIyMDE4LTIwMTgiLCJwcmVjbyI6IjEwMDAtMTAwMDAwIiwiZXN0YWRvIjoic2VtaW5vdm8ifX0sInVybEJ1c2NhIjoiXC9jYXJyb1wvYXVkaVwvYW5vLTIwMTgtMjAxOFwvcHJlY28tMTAwMC0xMDAwMDBcL2VzdGFkby1zZW1pbm92bz9wYWdlPTEifQ%253D%253D",
+            "anuncio": "http:\/\/localhost:8080\/seminovos\/anuncio\/audi-a3-2017-2018--2709150"
+        }
+    ]
+}
