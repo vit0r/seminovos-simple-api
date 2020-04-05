@@ -38,3 +38,7 @@ docker-compose up -d
 ```
 
 After that, open `http://localhost:8080` in your browser.
+
+## Como filtar registros, todos os veiculos são semi novos
+
+`http://localhost:8080/carro/?marca=audi&modelo=100&ano=2018-2021&preco=2000-1000000?pagina=2`
