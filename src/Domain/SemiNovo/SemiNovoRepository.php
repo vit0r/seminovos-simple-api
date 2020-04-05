@@ -6,9 +6,11 @@ namespace App\Domain\SemiNovo;
 interface SemiNovoRepository
 {
     /**
+     * @param string $tipo_veiculo
+     * @param array $filters
      * @return SemiNovo[]
      */
-    public function findAll(): array;
+    public function findSemiNovosByTypePage(string $tipo_veiculo, array $filters): array;
 
     /**
      * @param int $id

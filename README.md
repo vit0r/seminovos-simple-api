@@ -3,7 +3,7 @@
 ## System dependencies to install php7 and composer
 
 ```sh
-sudo apt install php7 composer php7-mbstring
+sudo apt install php7 composer php7-mbstring php7-curl
 ```
 
 ## Slim Framework 4 Skeleton Application
@@ -31,6 +31,9 @@ Use `docker-compose` to run the app with `docker`, so you can run these commands
 
 ```bash
 cd seminovos-simple-api
+
+composer install or composer update
+
 docker-compose up -d
 ```
 

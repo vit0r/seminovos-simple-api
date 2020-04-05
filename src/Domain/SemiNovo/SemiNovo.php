@@ -15,30 +15,44 @@ class Seminovo implements JsonSerializable
     /**
      * @var string
      */
-    private $username;
+    private $title;
 
     /**
      * @var string
      */
-    private $firstName;
+    private $price;
 
     /**
      * @var string
      */
-    private $lastName;
+    private $info;
+
+    /**
+     * @var string
+     */
+    private $link;
+
+    /**
+     * @var string
+     */
+    private $tipo;
 
     /**
      * @param int|null  $id
-     * @param string    $username
-     * @param string    $firstName
-     * @param string    $lastName
+     * @param string    $title
+     * @param string    $price
+     * @param string    $info
+     * @param string    $link
+     * @param string|null    $tipo
      */
-    public function __construct(?int $id, string $username, string $firstName, string $lastName)
+    public function __construct(?int $id, string $title, string $price, string $info, string $link, ?string $tipo)
     {
         $this->id = $id;
-        $this->username = strtolower($username);
-        $this->firstName = ucfirst($firstName);
-        $this->lastName = ucfirst($lastName);
+        $this->title = $title;
+        $this->price = $price;
+        $this->info = $info;
+        $this->link = $link;
+        $this->tipo = $tipo;
     }
 
     /**
@@ -49,28 +63,74 @@ class Seminovo implements JsonSerializable
         return $this->id;
     }
 
-    /**
-     * @return string
-     */
-    public function getUsername(): string
+    public function setId($id)
     {
-        return $this->username;
+        $this->$id = $id;
     }
 
     /**
      * @return string
      */
-    public function getFirstName(): string
+    public function getTitle(): string
     {
-        return $this->firstName;
+        return $this->title;
+    }
+
+    public function setTitle($title)
+    {
+        $this->title = $title;
     }
 
     /**
      * @return string
      */
-    public function getLastName(): string
+    public function getPrice(): string
     {
-        return $this->lastName;
+        return $this->price;
+    }
+    
+    public function setPrice($price)
+    {
+        $this->price = $price;
+    }
+
+    /**
+     * @return string
+     */
+    public function getInfo(): string
+    {
+        return $this->info;
+    }
+
+    public function setInfo($info)
+    {
+        $this->info = $info;
+    }
+
+    /**
+     * @return string
+     */
+    public function getLink(): string
+    {
+        return $this->link;
+    }
+
+    public function setLink($link)
+    {
+        $this->link = $link;
+    }
+
+    /**
+     * @return string
+     */
+    public function getTipo(): ?string
+    {
+        return $this->tipo;
+    }
+
+    public function setTipo($tipo)
+    {
+        $this->tipo = $tipo;
     }
 
     /**
@@ -80,9 +140,11 @@ class Seminovo implements JsonSerializable
     {
         return [
             'id' => $this->id,
-            'username' => $this->username,
-            'firstName' => $this->firstName,
-            'lastName' => $this->lastName,
+            'title' => $this->title,
+            'price' => $this->price,
+            'info' => $this->info,
+            'link' => $this->link,
+            'tipo' => $this->tipo
         ];
     }
 }
