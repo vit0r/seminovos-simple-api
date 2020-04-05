@@ -43,5 +43,9 @@
         "psr-4": {
             "Tests\\": "tests/"
         }
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.16",
+        "squizlabs/php_codesniffer": "^3.5"
     }
 }

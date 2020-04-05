@@ -155,10 +155,10 @@ class SeminovoAnuncio implements JsonSerializable
     /**
     * @return string
     */
-   public function getAceitaTroca(): string
-   {
-       return $this->aceitaTroca;
-   }
+    public function getAceitaTroca(): string
+    {
+        return $this->aceitaTroca;
+    }
 
     /**
      * @return array

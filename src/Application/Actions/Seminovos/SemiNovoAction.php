@@ -15,10 +15,12 @@ abstract class SemiNovoAction extends Action
     protected $semiNovoRepository;
 
     /**
+     * Action for SemiNovos Repository
      * @param LoggerInterface $logger
      * @param SemiNovoRepository  $semiNovoRepository
      */
-    public function __construct(LoggerInterface $logger, SemiNovoRepository $semiNovoRepository)
+    public function __construct(
+        LoggerInterface $logger, SemiNovoRepository $semiNovoRepository)
     {
         parent::__construct($logger);
         $this->semiNovoRepository = $semiNovoRepository;
