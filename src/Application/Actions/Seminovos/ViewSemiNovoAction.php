@@ -12,11 +12,11 @@ class ViewSemiNovoAction extends SemiNovoAction
      */
     protected function action(): Response
     {
-        $userId = (int) $this->resolveArg('id');
-        $user = $this->semiNovoRepository->findSemiNovoOfId($userId);
+        $anuncioId = (string) $this->resolveArg('id');
+        $semiNovo = $this->semiNovoRepository->findSemiNovoAnuncio($anuncioId);
 
-        $this->logger->info("User of id `${userId}` was viewed.");
+        $this->logger->info("Anuncio id `${anuncioId}` was viewed.");
 
-        return $this->respondWithData($user);
+        return $this->respondWithData($semiNovo);
     }
 }

@@ -35,24 +35,24 @@ class Seminovo implements JsonSerializable
     /**
      * @var string
      */
-    private $tipo;
+    private $anuncio;
 
     /**
-     * @param int|null  $id
-     * @param string    $title
-     * @param string    $price
-     * @param string    $info
-     * @param string    $link
-     * @param string|null    $tipo
+     * @param int|null      $id
+     * @param string        $title
+     * @param string        $price
+     * @param string        $info
+     * @param string        $link
+     * @param string|null   $anuncio
      */
-    public function __construct(?int $id, string $title, string $price, string $info, string $link, ?string $tipo)
+    public function __construct(?int $id, string $title, string $price, string $info, string $link, ?string $anuncio)
     {
         $this->id = $id;
         $this->title = $title;
         $this->price = $price;
         $this->info = $info;
         $this->link = $link;
-        $this->tipo = $tipo;
+        $this->anuncio = $anuncio;
     }
 
     /**
@@ -63,11 +63,6 @@ class Seminovo implements JsonSerializable
         return $this->id;
     }
 
-    public function setId($id)
-    {
-        $this->$id = $id;
-    }
-
     /**
      * @return string
      */
@@ -76,22 +71,12 @@ class Seminovo implements JsonSerializable
         return $this->title;
     }
 
-    public function setTitle($title)
-    {
-        $this->title = $title;
-    }
-
     /**
      * @return string
      */
     public function getPrice(): string
     {
         return $this->price;
-    }
-    
-    public function setPrice($price)
-    {
-        $this->price = $price;
     }
 
     /**
@@ -102,11 +87,6 @@ class Seminovo implements JsonSerializable
         return $this->info;
     }
 
-    public function setInfo($info)
-    {
-        $this->info = $info;
-    }
-
     /**
      * @return string
      */
@@ -115,22 +95,12 @@ class Seminovo implements JsonSerializable
         return $this->link;
     }
 
-    public function setLink($link)
-    {
-        $this->link = $link;
-    }
-
     /**
      * @return string
      */
-    public function getTipo(): ?string
+    public function getAnuncio(): ?string
     {
-        return $this->tipo;
-    }
-
-    public function setTipo($tipo)
-    {
-        $this->tipo = $tipo;
+        return $this->anuncio;
     }
 
     /**
@@ -144,7 +114,7 @@ class Seminovo implements JsonSerializable
             'price' => $this->price,
             'info' => $this->info,
             'link' => $this->link,
-            'tipo' => $this->tipo
+            'anuncio' => $this->anuncio
         ];
     }
 }

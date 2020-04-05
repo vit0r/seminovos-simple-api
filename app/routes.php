@@ -9,6 +9,6 @@ use Slim\Interfaces\RouteCollectorProxyInterface as Group;
 return function (App $app) {
     $app->group('/seminovos', function (Group $group) {
         $group->get('/{tipo_veiculo}', ListSemiNovoAction::class);
-        $group->get('/{tipo_veiculo}/{descricao}', ViewSemiNovoAction::class);
+        $group->get('/anuncio/{id}', ViewSemiNovoAction::class);
     });
 };

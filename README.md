@@ -1,9 +1,9 @@
 # seminovos-simple-api
 
-## System dependencies to install php7 and composer
+## System dependencies
 
 ```sh
-sudo apt install php7 composer php7-mbstring php7-curl
+sudo apt install php7 composer php7-mbstring php7-curl docker docker-compose
 ```
 
 ## Slim Framework 4 Skeleton Application
@@ -14,7 +14,7 @@ Use this skeleton application to quickly setup and start working on a new Slim F
 
 This skeleton application was built for Composer. This makes setting up a new Slim Framework application quick and easy.
 
-## Create the Application
+## Criando a aplicação
 
 Run this command from the directory in which you want to install your new Slim Framework application.
 
@@ -25,7 +25,7 @@ composer create-project slim/slim-skeleton seminovos-simple-api
 * Point your virtual host document root to your new application's `public/` directory.
 * Ensure `logs/` is web writable.
 
-## Start the Application
+## Iniciando a aplicação
 
 Use `docker-compose` to run the app with `docker`, so you can run these commands:
 
@@ -41,4 +41,37 @@ After that, open `http://localhost:8080` in your browser.
 
 ## Como filtar registros, todos os veiculos são semi novos
 
-`http://localhost:8080/carro/?marca=audi&modelo=100&ano=2018-2021&preco=2000-1000000?pagina=2`
+```bash
+http://localhost:8080/seminovos/carro/?marca=audi&modelo=100&ano=2018-2021&preco=2000-1000000?pagina=2
+
+http://localhost:8080/seminovos/moto/********
+
+http://localhost:8080/seminovos/caminhao/********
+
+```
+
+## Como obter descrição do semi novo, o link para descrição do anuncio encontra-se na propriedade anuncio dos registros de semi novos
+
+```bash
+http://localhost:8080/seminovos/carro?pagina=1&marca=audi&ano=2015-2019&preco=1000-100000
+
+```
+
+### Resposta
+
+```json
+{
+  "statusCode": 200,
+  "data": [
+    {
+      "anuncio": "http://localhost:8080/seminovos/anuncio/audi-a3-2018-2019--2714274"
+    }
+  ]
+}
+```
+
+## Parando a aplicação
+
+```bash
+docker-compose down
+```

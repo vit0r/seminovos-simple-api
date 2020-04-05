@@ -3,6 +3,8 @@ declare(strict_types=1);
 
 namespace App\Domain\SemiNovo;
 
+use App\Application\Actions\Seminovos\SemiNovoAction;
+
 interface SemiNovoRepository
 {
     /**
@@ -13,9 +15,9 @@ interface SemiNovoRepository
     public function findSemiNovosByTypePage(string $tipo_veiculo, array $filters): array;
 
     /**
-     * @param int $id
-     * @return SemiNovo
+     * @param string $anuncioId
+     * @return SemiNovoAction
      * @throws SemiNovoNotFoundException
      */
-    public function findSemiNovoOfId(int $id): SemiNovo;
+    public function findSemiNovoAnuncio(string $anuncioId): SeminovoAnuncio;
 }

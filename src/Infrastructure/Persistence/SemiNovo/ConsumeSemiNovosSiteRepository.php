@@ -4,7 +4,7 @@ declare(strict_types=1);
 namespace App\Infrastructure\Persistence\SemiNovo;
 
 use App\Domain\SemiNovo\SemiNovo;
-use App\Domain\SemiNovo\SemiNovoNotFoundException;
+use App\Domain\SemiNovo\SemiNovoAnuncio;
 use App\Domain\SemiNovo\SemiNovoRepository;
 use PHPHtmlParser\Dom;
 
@@ -47,12 +47,13 @@ class ConsumeSemiNovosSiteRepository implements SemiNovoRepository
         $semiNovosUrl = $this->semiNovosBaseUrlSite.'/'.$tipo_veiculo.'/'.$options_filters.'/estado-seminovo?page='.$pagina;
         $dom->loadFromUrl($semiNovosUrl);
         $contents = $dom->find('.card-content');
-        foreach($contents  as $key => $item){
+        foreach($contents as $key => $item){
             $title = $item->find('.card-title')->innerHtml;
             $price = $item->find('.card-price')->innerHtml;
             $info = $item->find('.list-inline')->innerHtml;
             $link = $this->semiNovosBaseUrlSite . $item->find('a')->getTag()->getAttribute('href')["value"];
-            array_push($this->semiNovos, new SemiNovo($key++, $title, $price,$info,$link, ""));
+            $auncio = str_replace($this->semiNovosBaseUrlSite,"http://localhost:8080/seminovos/anuncio", explode("?", $link)[0]);
+            array_push($this->semiNovos, new SemiNovo($key++, $title, $price,$info,$link, $auncio));
         }
         return array_values($this->semiNovos);
     }
@@ -60,16 +61,27 @@ class ConsumeSemiNovosSiteRepository implements SemiNovoRepository
     /**
      * {@inheritdoc}
      */
-    public function findSemiNovoOfId(int $id): SemiNovo
+    public function findSemiNovoAnuncio(string $anuncioId): SeminovoAnuncio
     {
-        /*
-        https://seminovos.com.br/chevrolet-tracker-2006-2007--912317
-        */
-
-        if (!isset($this->semiNovos[$id])) {
-            throw new SemiNovoNotFoundException();
+        $dom = new Dom;
+        $semiNovosUrl = $this->semiNovosBaseUrlSite.'/'.$anuncioId;
+        $dom->loadFromUrl($semiNovosUrl);
+        $contents = $dom->find('.item-info');
+        foreach($contents as $item){
+            $anuncioDetalhe = [
+                'title' => $item->find('h1')->innerHtml,
+                'description' => $item->find('.desc')->innerHtml,
+                'price' => preg_replace('/[<span>|<\/span>]/i', '', $item->find('.price')->innerHtml),
+                'ano' => $item->find('span[title=Ano/modelo]')->innerHtml,
+                'quilometragem' => $item->find('span[title=Kilometragem do veículo]')->innerHtml,
+                'cambio' => $item->find('span[title=Tipo de transmissão]')->innerHtml,
+                'portas' => $item->find('span[title=Portas]')->innerHtml,
+                'combustivel' => $item->find('span[title=Tipo de combustível]')->innerHtml,
+                'cor' => $item->find('span[title=Cor do veículo]')->innerHtml,
+                'placa' => $item->find('span[title=Final da placa]')->innerHtml,
+                'aceitaTroca' => $item->find('span[title=Aceita troca?]')->innerHtml
+            ];
         }
-
-        return $this->semiNovos[$id];
+        return new SeminovoAnuncio($anuncioDetalhe);
     }
 }
