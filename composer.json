@@ -27,7 +27,7 @@
         "monolog/monolog": "^1.24",
         "paquettg/php-html-parser": "^2.2",
         "php-di/php-di": "^6.0",
-        "slim/psr7": "^0.5",
+        "slim/psr7": "^1.4",
         "slim/slim": "^4.1"
     },
     "config": {
